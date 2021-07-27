@@ -16,7 +16,7 @@ namespace OperationAB
     {
         delegate string DoOperation(string a, string b);
         DoOperation operation = null;
-        List<BaseOperation> operations;
+        public List<BaseOperation> operations;
 
         public Form1()
         {
